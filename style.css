@@ -212,9 +212,11 @@ video{
 
 
 @media (max-width: 991.98px) {
+	body {
+    max-width: 991px; /* Максимальная ширина страницы в пикселах */ 
+   }
 .head{
 	background-image:URL(4321.png);
-	max-width:991.98px;
 	background-size:cover; 
 	background-repeat: no-repeat;
 	background-size: 100% 322px;
