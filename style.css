@@ -1,0 +1,411 @@
+@font-face{
+font-family: 'Franklin';
+src: url('FRADM.TTF');
+font-weight: normal;
+font-style: normal;
+}
+
+video{
+	border:none;
+	outline: none;	
+}
+
+.video{
+	position: absolute;
+	width: 70%;
+	height: 442px;
+	top: 350px;
+	box-sizing: border-box;
+	position:absolute; left:50%;transform: translateX(-50%)
+	
+}
+
+.line1{
+		position:absolute;
+		top:40px;
+		left:63px;
+		width:90%;
+		height:11px;
+		background:#FFFFFF;
+		z-index:3;
+}
+.line2{
+		position:absolute;
+		top:67px;
+		left:63px;
+		width:22%;
+		height:11px;
+		background:#FFFFFF;
+		z-index:3;
+}
+
+.line3{
+		position: absolute;
+		width: 11px;
+		height: 346px;
+		left: 72px;
+		top: 290px;
+		background: #FFFFFF;
+}
+
+.elps{
+		position:absolute;
+		top:107px;
+		left:43px;
+		width:125px;
+		height:125px; 
+}
+.phone{
+		position:absolute;
+		top:131px;
+		left:70px;
+		width:76px;
+		height:76px; 
+}
+
+.head{
+		background-image:URL(1234.png);
+		background-repeat:no-repeat;
+		background-size:contain;  
+		background-size: 100% 690px;
+		min-height:690px;
+}
+
+.article{
+		position:relative;
+		top:0px;
+		left:35px;
+		width:42%;
+		height:803px;
+		background: rgba(239, 147, 100, 0.8);
+}
+
+.asde{
+	height:827px;
+	background:#031229;
+	margin-top:-114px;
+}
+
+.rght{
+	height:900px;
+	background: rgba(120, 157, 185, 0.82);
+	margin-top:-73px;
+}
+
+.cont_btn{
+	position:absolute;
+	top:140px;
+	left:50%;
+}
+
+.btn{
+	position: absolute;
+	left: 95px;
+	top: 0px;
+	cursor:pointer;
+	width:112px;
+	height:45px; 
+}
+
+.card{
+	position:absolute;
+	width:39px;
+	height:25px;
+}
+
+.c1{
+	top:50px;
+	left:31px;
+}
+.c2{
+	top:25px;
+	left:84px;
+}
+.c3{
+	top:0px;
+	left:133px;
+}
+.c4{
+	top:-25px;
+	left:182px;
+}
+.c5{
+	top:-50px;
+	left:231px;
+}
+
+.download{
+	position:absolute;
+	width:150px;
+	height:52px;
+	cursor:pointer;
+}
+
+.appStore{
+	top:90px;
+	left:0px;
+}
+.google{
+	top:90px;
+	left:160px;
+}
+
+.icon{
+	position:absolute;
+	width:50px;
+	height:50px;
+}
+
+.first{
+	left: 120px;
+	top: 320px;
+}
+.second{
+	left: 122px;
+	top: 500px;
+}
+
+.footText{
+	position: inherit;
+	width: 562px;
+    height: 506px;
+	margin:0 auto;
+	top: 130px;
+	font-family: Arial;
+	font-size: 23px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+
+.ttt{
+	position: absolute;
+	font-family: Helvetica;
+	font-size: 18px;
+	line-height: 25px;
+	color: #FFFFFF;	
+	font-weight:bold;
+}
+
+.tttFirst{
+	left: 210px;
+	top: 320px;
+}
+
+.tttSecond{
+	left: 210px;
+	top: 500px;
+
+}
+
+.tittle{
+	font-family: Franklin;
+	font-size: 43px;
+	line-height: 49px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 43px;
+	top: 285px;
+}
+
+
+@media (max-width: 991.98px) {
+.head{
+	background-image:URL(4321.png);
+	background-size:cover; 
+	background-repeat: no-repeat;
+	background-size: 100% 322px;
+	min-height:322px;
+}
+
+.article{
+	position:absolute;
+	top:0px;
+	left:8px;
+	width:46%;
+	height:375px;
+	background: rgba(239, 147, 100, 0.8);
+}
+
+.asde{
+	height:1000px;
+	background:rgba(120, 157, 185, 0.82);
+	margin-top:-53px;
+}
+
+.elps{
+		position:absolute;
+		top:51px;
+		left:10px;
+		width:56px;
+		height:56px; 
+}
+
+.phone{
+		position:absolute;
+		top:64px;
+		left:23px;
+		width:31px;
+		height:31px; 
+}
+
+.line1{
+		position:absolute;
+		width: 90%;
+		height: 5px;
+		left: 13px;
+		top: 18px;
+		background: #FFFFFF;
+		z-index:2;
+}
+
+.line2{
+		position:absolute;
+		width: 22%;
+		height: 5px;
+		left: 13px;
+		top: 31px;
+		background: #FFFFFF;
+		z-index:2;
+}
+
+.line3{
+		position: inherit;
+		width: 11px;
+		height: 346px;
+		left: 20px;
+		top: 60px;
+		background: #FFFFFF;
+}
+
+.tittle{
+	font-family: Franklin;
+	left: 8px;
+	top: 120px;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+.cont_btn{
+	position:absolute;
+	top:140px;
+	left:0px;
+	margin-left:15px;
+}
+
+.btn{
+	position: absolute;
+	left: 48px;
+	top: 55px;
+	cursor:pointer;
+	height:35px;
+	width:80px;
+}
+
+.card{
+	position:absolute;
+	width:24px;
+	height:15px;
+}
+.c1{
+	top:90px;
+	left:10px;
+}
+.c2{
+	top:75px;
+	left:44px;
+}
+.c3{
+	top:60px;
+	left:78px;
+}
+.c4{
+	top:45px;
+	left:113px;
+}
+.c5{
+	top:30px;
+	left:146px;
+}
+
+.download{
+	position:absolute;
+	width:85px;
+	height:31px;
+	cursor:pointer;
+}
+
+.appStore{
+	top:115px;
+	left:0px;
+}
+.google{
+	top:115px;
+	left:95px;
+}
+
+.footText{
+	position:absolute; left:50%;transform: translateX(-50%);
+	width: 352px;
+	height: 506px;
+	top: 71px;
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+
+.video{
+	position:absolute; left:50%;transform: translateX(-50%);
+	width: 98%;
+	height: 227px;
+	top: 330px;
+	box-sizing: border-box;
+}
+
+.mob1{
+	height:520px;
+	background:#031229;
+	position:absolute;
+	top:400px;
+}
+
+.icon{
+	position:absolute;
+	width:50px;
+	height:50px;
+}
+
+.first{
+	left: 80px;
+	top: 70px;
+}
+.second{
+	left: 80px;
+	top: 270px;
+}
+
+.ttt{
+	position: absolute;
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 25px;
+	color: #FFFFFF;	
+}
+
+.tttFirst{
+	left: 160px;
+	top: 65px;
+}
+
+.tttSecond{
+	left: 160px;
+	top: 260px;
+
+}
+
+}
