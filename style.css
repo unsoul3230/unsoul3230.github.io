@@ -54,6 +54,7 @@ video{
 		left:43px;
 		width:125px;
 		height:125px; 
+	z-index:2;
 }
 .phone{
 		position:absolute;
